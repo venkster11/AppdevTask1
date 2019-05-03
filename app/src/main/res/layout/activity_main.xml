@@ -666,15 +666,16 @@
                     android:padding="16dp">
 
                     <Button
+                        android:id="@+id/btnxt"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="#ffffff"
+                        android:background="@drawable/btncolorchg"
                         android:elevation="10dp"
-                        android:text="Next-->"
-                        android:id="@+id/btnxt"
+                        android:text="Next"
+
                         android:textAllCaps="false"
-                        android:textSize="20sp"
                         android:textColor="#000000"
+                        android:textSize="20sp"
 
                         />
 
