@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/textid1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose atleast 4 Categories!"
+                android:textColor="#000000"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:id="@+id/bt1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Life"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                         />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:id="@+id/bt2"
+                        android:text="Politics"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Love"
+                        android:id="@+id/bt3"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:id="@+id/bt4"
+                        android:text="Technology"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Money"
+                        android:id="@+id/bt5"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Career"
+                        android:textAllCaps="false"
+                        android:id="@+id/bt6"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Sports"
+                        android:id="@+id/bt7"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Travel"
+                        android:id="@+id/bt8"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Health"
+                        android:id="@+id/bt9"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Adult"
+                        android:id="@+id/bt10"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Sports"
+                        android:id="@+id/bt11"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Movies/TV"
+                        android:id="@+id/bt12"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Books"
+                        android:id="@+id/bt13"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Shopping"
+                        android:id="@+id/bt14"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Gadgets"
+                        android:id="@+id/bt15"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roundcornerbtn"
+                        android:elevation="10dp"
+                        android:text="Web Series"
+                        android:id="@+id/bt16"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:background="#ffffff"
+                app:cardElevation="0dp"
+                android:elevation="0dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#ffffff"
+                        android:elevation="10dp"
+                        android:text="Next-->"
+                        android:id="@+id/btnxt"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:textColor="#000000"
+
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
